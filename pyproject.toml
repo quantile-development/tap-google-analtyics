@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "tap-google-analtyics-v4"
+name = "tap-google-analtyics"
 version = "0.0.1"
-description = "`tap-google-analtyics-v4` is Singer tap for TapGoogleAnalyticsV4, built with the Singer SDK."
+description = "`tap-google-analtyics` is Singer tap for TapGoogleAnalyticsV4, built with the Singer SDK."
 authors = ["Jules Huisman"]
 license = "Apache 2.0"
 
@@ -22,5 +22,5 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 # CLI declaration
-tap = 'tap_google_analtyics_v4.tap:TapTapGoogleAnalyticsV4.cli'
-tap-google-analtyics-v4 = 'tap_google_analtyics_v4.tap:TapTapGoogleAnalyticsV4.cli'
+tap = 'tap_google_analtyics.tap:TapTapGoogleAnalyticsV4.cli'
+tap-google-analtyics-v4 = 'tap_google_analtyics.tap:TapTapGoogleAnalyticsV4.cli'

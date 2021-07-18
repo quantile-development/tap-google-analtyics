@@ -4,7 +4,7 @@ import datetime
 
 from singer_sdk.testing import get_standard_tap_tests
 
-from tap_google_analtyics_v4.tap import TapTapGoogleAnalyticsV4
+from tap_google_analtyics.tap import TapTapGoogleAnalytics
 
 SAMPLE_CONFIG = {
     "start_date": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
@@ -16,7 +16,7 @@ SAMPLE_CONFIG = {
 def test_standard_tap_tests():
     """Run standard tap tests from the SDK."""
     tests = get_standard_tap_tests(
-        TapTapGoogleAnalyticsV4,
+        TapTapGoogleAnalytics,
         config=SAMPLE_CONFIG
     )
     for test in tests:

@@ -8,8 +8,8 @@ from singer_sdk import typing as th
 from singer_sdk.streams import Stream
 
 
-class TapGoogleAnalyticsV4Stream(Stream):
-    """TapGoogleAnalyticsV4 stream class."""
+class TapGoogleAnalyticsStream(Stream):
+    """TapGoogleAnalytics stream class."""
     report_generator: ReportGenerator
     replication_key = '_end_date'
 

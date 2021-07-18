@@ -1,16 +1,16 @@
-"""TapGoogleAnalyticsV4 tap class."""
+"""TapGoogleAnalytics tap class."""
 
-from tap_google_analtyics_v4.stream import TapGoogleAnalyticsV4Stream
-from tap_google_analtyics_v4.report_generator import ReportGenerator
+from tap_google_analtyics.stream import TapGoogleAnalyticsStream
+from tap_google_analtyics.report_generator import ReportGenerator
 from typing import List
 
 from singer_sdk import Tap, Stream
 from singer_sdk import typing as th  # JSON schema typing helpers
 
 
-class TapTapGoogleAnalyticsV4(Tap):
-    """TapGoogleAnalyticsV4 tap class."""
-    name = "tap-google-analtyics-v4"
+class TapTapGoogleAnalytics(Tap):
+    """TapGoogleAnalytics tap class."""
+    name = "tap-google-analtyics"
 
     config_jsonschema = th.PropertiesList(
         th.Property("key_file_location", th.StringType, required=False),
@@ -24,7 +24,7 @@ class TapTapGoogleAnalyticsV4(Tap):
     def discover_streams(self) -> List[Stream]:
         """Return a list of discovered streams."""
         # Instantiate the stream
-        stream = TapGoogleAnalyticsV4Stream(tap=self, name=self.config['name'])
+        stream = TapGoogleAnalyticsStream(tap=self, name=self.config['name'])
 
         # Inject the Google Analytics report generator
         stream.report_generator = ReportGenerator(

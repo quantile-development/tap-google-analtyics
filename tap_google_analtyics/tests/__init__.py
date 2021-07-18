@@ -1,1 +1,1 @@
-"""Test suite for tap-google-analtyics-v4."""
+"""Test suite for tap-google-analtyics."""
