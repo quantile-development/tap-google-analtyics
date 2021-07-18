@@ -1,6 +1,6 @@
-# tap-google-analtyics-v4
+# tap-google-analtyics
 
-`tap-google-analtyics-v4` is a Singer tap for TapGoogleAnalyticsV4.
+`tap-google-analtyics` is a Singer tap for TapGoogleAnalytics.
 
 Build with the [Singer SDK](https://gitlab.com/meltano/singer-sdk).
 
@@ -9,7 +9,7 @@ Build with the [Singer SDK](https://gitlab.com/meltano/singer-sdk).
 - [ ] `Developer TODO:` Update the below as needed to correctly describe the install procedure. For instance, if you do not have a PyPi repo, or if you want users to directly install from your git repo, you can modify this step as appropriate.
 
 ```bash
-pipx install tap-google-analtyics-v4
+pipx install tap-google-analtyics
 ```
 
 ## Configuration
@@ -22,7 +22,7 @@ A full list of supported settings and capabilities for this
 tap is available by running:
 
 ```bash
-tap-google-analtyics-v4 --about
+tap-google-analtyics --about
 ```
 
 ### Source Authentication and Authorization
@@ -31,14 +31,14 @@ tap-google-analtyics-v4 --about
 
 ## Usage
 
-You can easily run `tap-google-analtyics-v4` by itself or in a pipeline using [Meltano](www.meltano.com).
+You can easily run `tap-google-analtyics` by itself or in a pipeline using [Meltano](www.meltano.com).
 
 ### Executing the Tap Directly
 
 ```bash
-tap-google-analtyics-v4 --version
-tap-google-analtyics-v4 --help
-tap-google-analtyics-v4 --config CONFIG --discover > ./catalog.json
+tap-google-analtyics --version
+tap-google-analtyics --help
+tap-google-analtyics --config CONFIG --discover > ./catalog.json
 ```
 
 ## Developer Resources
@@ -54,17 +54,17 @@ poetry install
 
 ### Create and Run Tests
 
-Create tests within the `tap_google_analtyics_v4/tests` subfolder and
+Create tests within the `tap_google_analtyics/tests` subfolder and
   then run:
 
 ```bash
 poetry run pytest
 ```
 
-You can also test the `tap-google-analtyics-v4` CLI interface directly using `poetry run`:
+You can also test the `tap-google-analtyics` CLI interface directly using `poetry run`:
 
 ```bash
-poetry run tap-google-analtyics-v4 --help
+poetry run tap-google-analtyics --help
 ```
 
 ### Testing with [Meltano](https://www.meltano.com)
@@ -81,7 +81,7 @@ Next, install Meltano (if you haven't already) and any needed plugins:
 # Install meltano
 pipx install meltano
 # Initialize meltano within this directory
-cd tap-google-analtyics-v4
+cd tap-google-analtyics
 meltano install
 ```
 
@@ -89,9 +89,9 @@ Now you can test and orchestrate using Meltano:
 
 ```bash
 # Test invocation:
-meltano invoke tap-google-analtyics-v4 --version
+meltano invoke tap-google-analtyics --version
 # OR run a test `elt` pipeline:
-meltano elt tap-google-analtyics-v4 target-jsonl
+meltano elt tap-google-analtyics target-jsonl
 ```
 
 ### Singer SDK Dev Guide

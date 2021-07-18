@@ -26,8 +26,8 @@ setuptools.setup(
     packages=['tap_google_analytics'],
     entry_points="""
     [console_scripts]
-    tap=tap_google_analtyics.tap:TapTapGoogleAnalyticsV4.cli
-    tap-google-analytics=tap_google_analtyics.tap:TapTapGoogleAnalyticsV4.cli
+    tap=tap_google_analtyics.tap:TapTapGoogleAnalytics.cli
+    tap-google-analytics=tap_google_analtyics.tap:TapTapGoogleAnalytics.cli
     """,
     python_requires=">=3.8",
 )
