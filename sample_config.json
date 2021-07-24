@@ -4,5 +4,5 @@
     "name": "page_views",
     "dimensions": ["date"],
     "metrics": ["totalUsers", "userEngagementDuration", "engagementRate"],
-    "key_file_location": "client_secrets.json"
+    "key_file_location": "./.secrets/client_secrets.json"
 }

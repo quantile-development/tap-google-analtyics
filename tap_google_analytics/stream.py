@@ -2,7 +2,7 @@ import os
 import requests
 from pathlib import Path
 from typing import Any, Dict, Optional, Union, List, Iterable
-from tap_google_analtyics.report_generator import ReportGenerator
+from tap_google_analytics.report_generator import ReportGenerator
 
 from singer_sdk import typing as th
 from singer_sdk.streams import Stream

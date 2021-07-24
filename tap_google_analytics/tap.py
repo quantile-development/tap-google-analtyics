@@ -1,7 +1,7 @@
 """TapGoogleAnalytics tap class."""
 
-from tap_google_analtyics.stream import TapGoogleAnalyticsStream
-from tap_google_analtyics.report_generator import ReportGenerator
+from tap_google_analytics.stream import TapGoogleAnalyticsStream
+from tap_google_analytics.report_generator import ReportGenerator
 from typing import List
 
 from singer_sdk import Tap, Stream
@@ -10,7 +10,7 @@ from singer_sdk import typing as th  # JSON schema typing helpers
 
 class TapTapGoogleAnalytics(Tap):
     """TapGoogleAnalytics tap class."""
-    name = "tap-google-analtyics"
+    name = "tap-google-analytics"
 
     config_jsonschema = th.PropertiesList(
         th.Property("key_file_location", th.StringType, required=False),

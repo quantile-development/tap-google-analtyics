@@ -4,7 +4,7 @@ import datetime
 
 from singer_sdk.testing import get_standard_tap_tests
 
-from tap_google_analtyics.tap import TapTapGoogleAnalytics
+from tap_google_analytics.tap import TapTapGoogleAnalytics
 
 SAMPLE_CONFIG = {
     "start_date": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")

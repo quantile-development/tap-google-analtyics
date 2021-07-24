@@ -1,13 +1,13 @@
 version: 1
 send_anonymous_usage_stats: true
-project_id: tap-google-analtyics-v4
+project_id: tap-google-analytics-v4
 plugins:
   extractors:
-  - name: tap-google-analtyics-v4
-    namespace: tap_google_analtyics_v4
+  - name: tap-google-analytics-v4
+    namespace: tap_google_analytics_v4
     # TODO: To test using Meltano, replace with absolute path
-    #       to the tap-google-analtyics-v4.sh script:
-    executable: ./tap-google-analtyics-v4.sh
+    #       to the tap-google-analytics-v4.sh script:
+    executable: ./tap-google-analytics-v4.sh
     capabilities:
     - state
     - catalog
