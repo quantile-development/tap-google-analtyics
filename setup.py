@@ -16,8 +16,8 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/quantile-development/tap-google-analytics/issues",
     },
     install_requires=[
-        'singer-sdk==0.2.0',
-        'google-analytics-data'
+        'singer-sdk==0.3.12',
+        'google-analytics-data==0.5.1'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
