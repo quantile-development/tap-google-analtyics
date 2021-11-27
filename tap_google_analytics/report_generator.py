@@ -1,5 +1,5 @@
-from logging import Logger
 import os
+import logging
 
 from datetime import datetime, timedelta
 from typing import Dict, Iterator, List
@@ -32,8 +32,7 @@ class ReportGenerator:
                  property_id: int,
                  dimensions: List[str],
                  metrics: List[str],
-                 key_file_location: str,
-                 logger: Logger) -> None:
+                 key_file_location: str) -> None:
         # Set the key location as an environment variable
         os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = key_file_location
 
@@ -42,7 +41,6 @@ class ReportGenerator:
         self._dimension_names = dimensions
         self._metric_names = metrics
         self._client = BetaAnalyticsDataClient()
-        self._logger = logger
 
         # Request the report from Google Analytics
         self._report = self._fetch_report()
@@ -147,13 +145,13 @@ class ReportGenerator:
 
     def report_rows(self, start_date: str) -> Iterator[Dict[str, str]]:
 
-        self._logger.info(
+        logging.info(
             f'Generating report with start date: {start_date} and end date: {self._end_date}'
         )
 
         # If the start date is the same as the end date there are no new rows
         if start_date == self._end_date:
-            self._logger.info('No new rows to be fetched')
+            logging.info('No new rows to be fetched')
             return []
 
         # Fetch the report with the start_date from the state

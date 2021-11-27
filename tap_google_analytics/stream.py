@@ -1,17 +1,18 @@
-import os
-import requests
-from pathlib import Path
-from typing import Any, Dict, Optional, Union, List, Iterable
+from typing import Any, Dict, Optional, Iterable, Union 
 from tap_google_analytics.report_generator import ReportGenerator
 
 from singer_sdk import typing as th
+from singer_sdk.plugin_base import PluginBase as TapBaseClass
 from singer_sdk.streams import Stream
 
 
 class TapGoogleAnalyticsStream(Stream):
     """TapGoogleAnalytics stream class."""
-    report_generator: ReportGenerator
     replication_key = '_end_date'
+
+    def __init__(self, tap: TapBaseClass, report_generator: ReportGenerator,  schema = None, name: Optional[str] = None) -> None:
+        self.report_generator = report_generator
+        super().__init__(tap, schema=schema, name=name)
 
     @property
     def schema(self) -> Dict[str, Any]:

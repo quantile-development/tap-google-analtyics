@@ -23,16 +23,20 @@ class TapTapGoogleAnalytics(Tap):
 
     def discover_streams(self) -> List[Stream]:
         """Return a list of discovered streams."""
-        # Instantiate the stream
-        stream = TapGoogleAnalyticsStream(tap=self, name=self.config['name'])
 
         # Inject the Google Analytics report generator
-        stream.report_generator = ReportGenerator(
+        report_generator = ReportGenerator(
             property_id=self.config['property_id'],
             dimensions=self.config['dimensions'],
             metrics=self.config['metrics'],
             key_file_location=self.config['key_file_location'],
-            logger=stream.logger
+        )
+
+        # Instantiate the stream
+        stream = TapGoogleAnalyticsStream(
+            tap=self, 
+            name=self.config['name'],
+            report_generator=report_generator,
         )
 
         # The primary keys are the dimension names

@@ -1,20 +1,26 @@
 [tool.poetry]
 name = "tap-google-analytics"
 version = "0.0.1"
-description = "`tap-google-analytics` is Singer tap for Google Analytics 4, built with the Singer SDK."
+description = "`tap-google-analytics` is a Singer tap for TweedeKamer, built with the Meltano SDK for Singer Taps."
 authors = ["Jules Huisman"]
+keywords = [
+    "ELT",
+]
 license = "Apache 2.0"
 
 [tool.poetry.dependencies]
-python = "<3.9,>=3.6"
+python = "<3.10,>=3.6.2"
 requests = "^2.25.1"
-singer-sdk = "^0.2.0"
+singer-sdk = "^0.3.12"
 google-analytics-data = "^0.5.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.1.2"
+pytest = "^6.2.5"
+tox = "^3.24.4"
 flake8 = "^3.9.2"
-autopep8 = "^1.5.7"
+black = "^21.9b0"
+pydocstyle = "^6.1.1"
+mypy = "^0.910"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
