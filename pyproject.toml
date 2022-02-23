@@ -1,7 +1,6 @@
 [tool.poetry]
 name = "tap-google-analytics"
 version = "0.0.1"
-description = "`tap-google-analytics` is a Singer tap for TweedeKamer, built with the Meltano SDK for Singer Taps."
 authors = ["Jules Huisman"]
 keywords = [
     "ELT",
@@ -28,5 +27,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 # CLI declaration
-tap = 'tap_google_analytics.tap:TapTapGoogleAnalytics.cli'
 tap-google-analytics = 'tap_google_analytics.tap:TapTapGoogleAnalytics.cli'

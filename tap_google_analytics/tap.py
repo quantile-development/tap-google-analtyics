@@ -5,7 +5,7 @@ from tap_google_analytics.report_generator import ReportGenerator
 from typing import List
 
 from singer_sdk import Tap, Stream
-from singer_sdk import typing as th  # JSON schema typing helpers
+from singer_sdk import typing as th
 
 
 class TapTapGoogleAnalytics(Tap):
@@ -13,11 +13,11 @@ class TapTapGoogleAnalytics(Tap):
     name = "tap-google-analytics"
 
     config_jsonschema = th.PropertiesList(
-        th.Property("key_file_location", th.StringType, required=False),
-        th.Property("property_id", th.StringType, required=False),
-        th.Property("dimensions", th.ArrayType(th.StringType), required=False),
-        th.Property("metrics", th.ArrayType(th.StringType), required=False),
-        th.Property("name", th.StringType, required=False),
+        th.Property("service_account_key", th.StringType, required=True),
+        th.Property("property_id", th.StringType, required=True),
+        th.Property("dimensions", th.ArrayType(th.StringType), required=True),
+        th.Property("metrics", th.ArrayType(th.StringType), required=True),
+        th.Property("name", th.StringType, required=True),
         th.Property("start_date", th.DateTimeType)
     ).to_dict()
 
@@ -26,16 +26,16 @@ class TapTapGoogleAnalytics(Tap):
 
         # Inject the Google Analytics report generator
         report_generator = ReportGenerator(
-            property_id=self.config['property_id'],
-            dimensions=self.config['dimensions'],
-            metrics=self.config['metrics'],
-            key_file_location=self.config['key_file_location'],
+            property_id=self.config["property_id"],
+            dimensions=self.config["dimensions"],
+            metrics=self.config["metrics"],
+            service_account_key=self.config["service_account_key"],
         )
 
         # Instantiate the stream
         stream = TapGoogleAnalyticsStream(
             tap=self, 
-            name=self.config['name'],
+            name=self.config["name"],
             report_generator=report_generator,
         )
 

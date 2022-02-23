@@ -9,6 +9,8 @@ from google.analytics.data_v1beta.types import DateRange, Dimension, Metric, Run
 from google.analytics.data_v1beta.types.data import Row
 
 from singer_sdk import typing as th
+import json
+from google.oauth2 import service_account
 
 type_mapping = {
     MetricType.METRIC_TYPE_UNSPECIFIED: th.StringType,
@@ -32,15 +34,15 @@ class ReportGenerator:
                  property_id: int,
                  dimensions: List[str],
                  metrics: List[str],
-                 key_file_location: str) -> None:
-        # Set the key location as an environment variable
-        os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = key_file_location
+                 service_account_key: str) -> None:
+        # Load the service account key and create a client
+        service_account = json.loads(service_account_key, strict=False)
+        credentials = service_account.Credentials.from_service_account_info(service_account)
+        self._client = BetaAnalyticsDataClient(credentials=credentials)
 
-        # Initially set the start date as the end date
         self._property = 'properties/' + str(property_id)
         self._dimension_names = dimensions
         self._metric_names = metrics
-        self._client = BetaAnalyticsDataClient()
 
         # Request the report from Google Analytics
         self._report = self._fetch_report()

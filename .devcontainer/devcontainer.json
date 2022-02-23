@@ -17,7 +17,6 @@
   
     // Set *default* container specific settings.json values on container create.
     "settings": {
-    //   "python.defaultInterpreterPath": "/usr/local/py-utils/venvs/poetry/bin/python",
       "python.linting.ignorePatterns": [
         ".vscode/*.py",
         "**/site-packages/**/*.py"
