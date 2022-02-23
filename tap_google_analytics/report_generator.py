@@ -36,8 +36,8 @@ class ReportGenerator:
                  metrics: List[str],
                  service_account_key: str) -> None:
         # Load the service account key and create a client
-        service_account = json.loads(service_account_key, strict=False)
-        credentials = service_account.Credentials.from_service_account_info(service_account)
+        service_account_object = json.loads(service_account_key, strict=False)
+        credentials = service_account.Credentials.from_service_account_info(service_account_object)
         self._client = BetaAnalyticsDataClient(credentials=credentials)
 
         self._property = 'properties/' + str(property_id)
