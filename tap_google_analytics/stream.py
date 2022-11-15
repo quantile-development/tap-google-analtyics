@@ -49,10 +49,9 @@ class TapGoogleAnalyticsStream(Stream):
             yield self.post_process(row, context)
 
     def parse_date(self, date_string: str) -> datetime:
-        return pendulum.from_format(date_string, "YYYYMMDD")
+        return pendulum.from_format(date_string, "YYYYMMDD").format("YYYY-MM-DD")
 
     def post_process(self, row: dict, context: Optional[dict] = None) -> dict:
-        print(row)
         if "date" in row:
             row = {
                 **row,
