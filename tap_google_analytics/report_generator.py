@@ -102,8 +102,8 @@ class ReportGenerator:
     def header_types(self):
         # All the dimensions are string typed
         dimension_types = [
-            th.StringType
-            for _
+            th.DateType if dim.name == "date" else th.StringType
+            for dim
             in self._report.dimension_headers
         ]
 

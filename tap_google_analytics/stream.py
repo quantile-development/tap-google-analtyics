@@ -1,4 +1,6 @@
 from typing import Any, Dict, Optional, Iterable, Union 
+from datetime import datetime
+import pendulum
 from tap_google_analytics.report_generator import ReportGenerator
 
 from singer_sdk import typing as th
@@ -44,4 +46,17 @@ class TapGoogleAnalyticsStream(Stream):
         start_date = self.get_starting_timestamp(context=context).strftime('%Y-%m-%d')
 
         for row in self.report_generator.report_rows(start_date=start_date):
-            yield row
+            yield self.post_process(row, context)
+
+    def parse_date(self, date_string: str) -> datetime:
+        return pendulum.from_format(date_string, "YYYYMMDD")
+
+    def post_process(self, row: dict, context: Optional[dict] = None) -> dict:
+        print(row)
+        if "date" in row:
+            row = {
+                **row,
+                "date": self.parse_date(row["date"])
+            }
+
+        return row

@@ -10,6 +10,7 @@
       "schema": {
         "properties": {
           "date": {
+            "format": "date",
             "type": [
               "string",
               "null"

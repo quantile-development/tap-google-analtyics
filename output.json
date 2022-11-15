@@ -1,0 +1,1023 @@
+{"type": "SCHEMA", "stream": "page_views", "schema": {"properties": {"date": {"format": "date", "type": ["string", "null"]}, "totalUsers": {"type": ["integer", "null"]}, "userEngagementDuration": {"type": ["integer", "null"]}, "engagementRate": {"type": ["number", "null"]}, "_end_date": {"format": "date-time", "type": ["string", "null"]}}, "type": "object"}, "key_properties": ["date"], "bookmark_properties": ["_end_date"]}
+{'date': '20210312', 'totalUsers': 122, 'userEngagementDuration': 6309, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-12T00:00:00+00:00", "totalUsers": 122, "userEngagementDuration": 6309, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.959621+00:00"}
+{'date': '20210315', 'totalUsers': 68, 'userEngagementDuration': 1853, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "STATE", "value": {"bookmarks": {"page_views": {"replication_key_signpost": "2022-11-15T16:51:50.743794+00:00", "starting_replication_value": "2010-01-01", "progress_markers": {"Note": "Progress is not resumable if interrupted.", "replication_key": "_end_date", "replication_key_value": "2022-11-14"}}}}}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-15T00:00:00+00:00", "totalUsers": 68, "userEngagementDuration": 1853, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.960524+00:00"}
+{'date': '20210316', 'totalUsers': 39, 'userEngagementDuration': 712, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-16T00:00:00+00:00", "totalUsers": 39, "userEngagementDuration": 712, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.961179+00:00"}
+{'date': '20220707', 'totalUsers': 39, 'userEngagementDuration': 1676, 'engagementRate': 0.8095238095238095, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-07T00:00:00+00:00", "totalUsers": 39, "userEngagementDuration": 1676, "engagementRate": 0.8095238095238095, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.961804+00:00"}
+{'date': '20210313', 'totalUsers': 37, 'userEngagementDuration': 985, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-13T00:00:00+00:00", "totalUsers": 37, "userEngagementDuration": 985, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.962437+00:00"}
+{'date': '20211126', 'totalUsers': 33, 'userEngagementDuration': 1490, 'engagementRate': 0.7142857142857143, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-26T00:00:00+00:00", "totalUsers": 33, "userEngagementDuration": 1490, "engagementRate": 0.7142857142857143, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.963071+00:00"}
+{'date': '20220926', 'totalUsers': 27, 'userEngagementDuration': 953, 'engagementRate': 0.6060606060606061, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-26T00:00:00+00:00", "totalUsers": 27, "userEngagementDuration": 953, "engagementRate": 0.6060606060606061, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.963673+00:00"}
+{'date': '20210407', 'totalUsers': 24, 'userEngagementDuration': 1036, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-07T00:00:00+00:00", "totalUsers": 24, "userEngagementDuration": 1036, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.964302+00:00"}
+{'date': '20210317', 'totalUsers': 22, 'userEngagementDuration': 503, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-17T00:00:00+00:00", "totalUsers": 22, "userEngagementDuration": 503, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.964929+00:00"}
+{'date': '20221107', 'totalUsers': 18, 'userEngagementDuration': 859, 'engagementRate': 0.5263157894736842, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-07T00:00:00+00:00", "totalUsers": 18, "userEngagementDuration": 859, "engagementRate": 0.5263157894736842, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.965538+00:00"}
+{'date': '20210623', 'totalUsers': 17, 'userEngagementDuration': 450, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-23T00:00:00+00:00", "totalUsers": 17, "userEngagementDuration": 450, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.966176+00:00"}
+{'date': '20220309', 'totalUsers': 17, 'userEngagementDuration': 785, 'engagementRate': 0.5909090909090909, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-09T00:00:00+00:00", "totalUsers": 17, "userEngagementDuration": 785, "engagementRate": 0.5909090909090909, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.966784+00:00"}
+{'date': '20210915', 'totalUsers': 16, 'userEngagementDuration': 344, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-15T00:00:00+00:00", "totalUsers": 16, "userEngagementDuration": 344, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.967402+00:00"}
+{'date': '20220211', 'totalUsers': 16, 'userEngagementDuration': 339, 'engagementRate': 0.42105263157894735, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-11T00:00:00+00:00", "totalUsers": 16, "userEngagementDuration": 339, "engagementRate": 0.42105263157894735, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.968343+00:00"}
+{'date': '20220308', 'totalUsers': 16, 'userEngagementDuration': 586, 'engagementRate': 0.7058823529411765, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-08T00:00:00+00:00", "totalUsers": 16, "userEngagementDuration": 586, "engagementRate": 0.7058823529411765, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.969235+00:00"}
+{'date': '20220628', 'totalUsers': 16, 'userEngagementDuration': 500, 'engagementRate': 0.3888888888888889, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-28T00:00:00+00:00", "totalUsers": 16, "userEngagementDuration": 500, "engagementRate": 0.3888888888888889, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.970023+00:00"}
+{'date': '20210729', 'totalUsers': 14, 'userEngagementDuration': 622, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-29T00:00:00+00:00", "totalUsers": 14, "userEngagementDuration": 622, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.970646+00:00"}
+{'date': '20211014', 'totalUsers': 14, 'userEngagementDuration': 483, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-14T00:00:00+00:00", "totalUsers": 14, "userEngagementDuration": 483, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.971283+00:00"}
+{'date': '20211026', 'totalUsers': 14, 'userEngagementDuration': 840, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-26T00:00:00+00:00", "totalUsers": 14, "userEngagementDuration": 840, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.971930+00:00"}
+{'date': '20220819', 'totalUsers': 14, 'userEngagementDuration': 965, 'engagementRate': 0.5263157894736842, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-19T00:00:00+00:00", "totalUsers": 14, "userEngagementDuration": 965, "engagementRate": 0.5263157894736842, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.972557+00:00"}
+{'date': '20220824', 'totalUsers': 14, 'userEngagementDuration': 290, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-24T00:00:00+00:00", "totalUsers": 14, "userEngagementDuration": 290, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.973270+00:00"}
+{'date': '20221003', 'totalUsers': 14, 'userEngagementDuration': 782, 'engagementRate': 0.6470588235294118, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-03T00:00:00+00:00", "totalUsers": 14, "userEngagementDuration": 782, "engagementRate": 0.6470588235294118, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.973968+00:00"}
+{'date': '20210325', 'totalUsers': 13, 'userEngagementDuration': 540, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-25T00:00:00+00:00", "totalUsers": 13, "userEngagementDuration": 540, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.974573+00:00"}
+{'date': '20210328', 'totalUsers': 13, 'userEngagementDuration': 157, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-28T00:00:00+00:00", "totalUsers": 13, "userEngagementDuration": 157, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.975222+00:00"}
+{'date': '20210811', 'totalUsers': 13, 'userEngagementDuration': 1592, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-11T00:00:00+00:00", "totalUsers": 13, "userEngagementDuration": 1592, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.975839+00:00"}
+{'date': '20210930', 'totalUsers': 13, 'userEngagementDuration': 971, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-30T00:00:00+00:00", "totalUsers": 13, "userEngagementDuration": 971, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.976452+00:00"}
+{'date': '20220921', 'totalUsers': 13, 'userEngagementDuration': 2027, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-21T00:00:00+00:00", "totalUsers": 13, "userEngagementDuration": 2027, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.977077+00:00"}
+{'date': '20221017', 'totalUsers': 13, 'userEngagementDuration': 608, 'engagementRate': 0.4, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-17T00:00:00+00:00", "totalUsers": 13, "userEngagementDuration": 608, "engagementRate": 0.4, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.977673+00:00"}
+{'date': '20221110', 'totalUsers': 13, 'userEngagementDuration': 767, 'engagementRate': 0.7647058823529411, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-10T00:00:00+00:00", "totalUsers": 13, "userEngagementDuration": 767, "engagementRate": 0.7647058823529411, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.978290+00:00"}
+{'date': '20210314', 'totalUsers': 12, 'userEngagementDuration': 422, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-14T00:00:00+00:00", "totalUsers": 12, "userEngagementDuration": 422, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.978906+00:00"}
+{'date': '20220112', 'totalUsers': 12, 'userEngagementDuration': 232, 'engagementRate': 0.5714285714285714, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-12T00:00:00+00:00", "totalUsers": 12, "userEngagementDuration": 232, "engagementRate": 0.5714285714285714, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.979499+00:00"}
+{'date': '20220610', 'totalUsers': 12, 'userEngagementDuration': 381, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-10T00:00:00+00:00", "totalUsers": 12, "userEngagementDuration": 381, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.980133+00:00"}
+{'date': '20220914', 'totalUsers': 12, 'userEngagementDuration': 303, 'engagementRate': 0.46153846153846156, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-14T00:00:00+00:00", "totalUsers": 12, "userEngagementDuration": 303, "engagementRate": 0.46153846153846156, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.980727+00:00"}
+{'date': '20220919', 'totalUsers': 12, 'userEngagementDuration': 240, 'engagementRate': 0.5333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-19T00:00:00+00:00", "totalUsers": 12, "userEngagementDuration": 240, "engagementRate": 0.5333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.981325+00:00"}
+{'date': '20220927', 'totalUsers': 12, 'userEngagementDuration': 393, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-27T00:00:00+00:00", "totalUsers": 12, "userEngagementDuration": 393, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.981929+00:00"}
+{'date': '20221010', 'totalUsers': 12, 'userEngagementDuration': 203, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-10T00:00:00+00:00", "totalUsers": 12, "userEngagementDuration": 203, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.982513+00:00"}
+{'date': '20210318', 'totalUsers': 11, 'userEngagementDuration': 284, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-18T00:00:00+00:00", "totalUsers": 11, "userEngagementDuration": 284, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.983122+00:00"}
+{'date': '20211028', 'totalUsers': 11, 'userEngagementDuration': 312, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-28T00:00:00+00:00", "totalUsers": 11, "userEngagementDuration": 312, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.983722+00:00"}
+{'date': '20211127', 'totalUsers': 11, 'userEngagementDuration': 398, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-27T00:00:00+00:00", "totalUsers": 11, "userEngagementDuration": 398, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.984319+00:00"}
+{'date': '20220420', 'totalUsers': 11, 'userEngagementDuration': 267, 'engagementRate': 0.7142857142857143, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-20T00:00:00+00:00", "totalUsers": 11, "userEngagementDuration": 267, "engagementRate": 0.7142857142857143, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.984925+00:00"}
+{'date': '20220916', 'totalUsers': 11, 'userEngagementDuration': 1202, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-16T00:00:00+00:00", "totalUsers": 11, "userEngagementDuration": 1202, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.985509+00:00"}
+{'date': '20220928', 'totalUsers': 11, 'userEngagementDuration': 288, 'engagementRate': 0.38461538461538464, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-28T00:00:00+00:00", "totalUsers": 11, "userEngagementDuration": 288, "engagementRate": 0.38461538461538464, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.986130+00:00"}
+{'date': '20221111', 'totalUsers': 11, 'userEngagementDuration': 718, 'engagementRate': 0.7272727272727273, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-11T00:00:00+00:00", "totalUsers": 11, "userEngagementDuration": 718, "engagementRate": 0.7272727272727273, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.986722+00:00"}
+{'date': '20220113', 'totalUsers': 10, 'userEngagementDuration': 446, 'engagementRate': 0.7272727272727273, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-13T00:00:00+00:00", "totalUsers": 10, "userEngagementDuration": 446, "engagementRate": 0.7272727272727273, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.987319+00:00"}
+{'date': '20220506', 'totalUsers': 10, 'userEngagementDuration': 111, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-06T00:00:00+00:00", "totalUsers": 10, "userEngagementDuration": 111, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.987924+00:00"}
+{'date': '20220818', 'totalUsers': 10, 'userEngagementDuration': 539, 'engagementRate': 0.45454545454545453, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-18T00:00:00+00:00", "totalUsers": 10, "userEngagementDuration": 539, "engagementRate": 0.45454545454545453, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.988515+00:00"}
+{'date': '20220822', 'totalUsers': 10, 'userEngagementDuration': 713, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-22T00:00:00+00:00", "totalUsers": 10, "userEngagementDuration": 713, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.989156+00:00"}
+{'date': '20210324', 'totalUsers': 9, 'userEngagementDuration': 382, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-24T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 382, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.989815+00:00"}
+{'date': '20210412', 'totalUsers': 9, 'userEngagementDuration': 258, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-12T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 258, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.990459+00:00"}
+{'date': '20210914', 'totalUsers': 9, 'userEngagementDuration': 681, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-14T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 681, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.991094+00:00"}
+{'date': '20211128', 'totalUsers': 9, 'userEngagementDuration': 334, 'engagementRate': 0.7333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-28T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 334, "engagementRate": 0.7333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.991683+00:00"}
+{'date': '20211129', 'totalUsers': 9, 'userEngagementDuration': 1096, 'engagementRate': 0.8, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-29T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 1096, "engagementRate": 0.8, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.992289+00:00"}
+{'date': '20220202', 'totalUsers': 9, 'userEngagementDuration': 388, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-02T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 388, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.992884+00:00"}
+{'date': '20220316', 'totalUsers': 9, 'userEngagementDuration': 196, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-16T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 196, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.993493+00:00"}
+{'date': '20220512', 'totalUsers': 9, 'userEngagementDuration': 263, 'engagementRate': 0.5333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-12T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 263, "engagementRate": 0.5333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.994104+00:00"}
+{'date': '20220517', 'totalUsers': 9, 'userEngagementDuration': 432, 'engagementRate': 0.5454545454545454, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-17T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 432, "engagementRate": 0.5454545454545454, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.994686+00:00"}
+{'date': '20220524', 'totalUsers': 9, 'userEngagementDuration': 373, 'engagementRate': 0.7, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-24T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 373, "engagementRate": 0.7, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.995287+00:00"}
+{'date': '20220607', 'totalUsers': 9, 'userEngagementDuration': 505, 'engagementRate': 0.5555555555555556, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-07T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 505, "engagementRate": 0.5555555555555556, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.995908+00:00"}
+{'date': '20220816', 'totalUsers': 9, 'userEngagementDuration': 539, 'engagementRate': 0.7777777777777778, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-16T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 539, "engagementRate": 0.7777777777777778, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.996490+00:00"}
+{'date': '20220915', 'totalUsers': 9, 'userEngagementDuration': 563, 'engagementRate': 0.6153846153846154, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-15T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 563, "engagementRate": 0.6153846153846154, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.997095+00:00"}
+{'date': '20220929', 'totalUsers': 9, 'userEngagementDuration': 367, 'engagementRate': 0.5555555555555556, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-29T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 367, "engagementRate": 0.5555555555555556, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.997675+00:00"}
+{'date': '20220930', 'totalUsers': 9, 'userEngagementDuration': 907, 'engagementRate': 0.9166666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-30T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 907, "engagementRate": 0.9166666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.998292+00:00"}
+{'date': '20221019', 'totalUsers': 9, 'userEngagementDuration': 384, 'engagementRate': 0.4444444444444444, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-19T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 384, "engagementRate": 0.4444444444444444, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.998872+00:00"}
+{'date': '20221114', 'totalUsers': 9, 'userEngagementDuration': 213, 'engagementRate': 0.8, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-14T00:00:00+00:00", "totalUsers": 9, "userEngagementDuration": 213, "engagementRate": 0.8, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:50.999464+00:00"}
+{'date': '20210331', 'totalUsers': 8, 'userEngagementDuration': 185, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-31T00:00:00+00:00", "totalUsers": 8, "userEngagementDuration": 185, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.000078+00:00"}
+{'date': '20211124', 'totalUsers': 8, 'userEngagementDuration': 554, 'engagementRate': 0.7, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-24T00:00:00+00:00", "totalUsers": 8, "userEngagementDuration": 554, "engagementRate": 0.7, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.000655+00:00"}
+{'date': '20220125', 'totalUsers': 8, 'userEngagementDuration': 327, 'engagementRate': 0.5833333333333334, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-25T00:00:00+00:00", "totalUsers": 8, "userEngagementDuration": 327, "engagementRate": 0.5833333333333334, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.001253+00:00"}
+{'date': '20220303', 'totalUsers': 8, 'userEngagementDuration': 399, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-03T00:00:00+00:00", "totalUsers": 8, "userEngagementDuration": 399, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.001866+00:00"}
+{'date': '20220421', 'totalUsers': 8, 'userEngagementDuration': 154, 'engagementRate': 0.5555555555555556, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-21T00:00:00+00:00", "totalUsers": 8, "userEngagementDuration": 154, "engagementRate": 0.5555555555555556, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.002462+00:00"}
+{'date': '20220505', 'totalUsers': 8, 'userEngagementDuration': 286, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-05T00:00:00+00:00", "totalUsers": 8, "userEngagementDuration": 286, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.003081+00:00"}
+{'date': '20220613', 'totalUsers': 8, 'userEngagementDuration': 419, 'engagementRate': 0.7, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-13T00:00:00+00:00", "totalUsers": 8, "userEngagementDuration": 419, "engagementRate": 0.7, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.003661+00:00"}
+{'date': '20220708', 'totalUsers': 8, 'userEngagementDuration': 400, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-08T00:00:00+00:00", "totalUsers": 8, "userEngagementDuration": 400, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.004273+00:00"}
+{'date': '20220913', 'totalUsers': 8, 'userEngagementDuration': 744, 'engagementRate': 0.6428571428571429, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-13T00:00:00+00:00", "totalUsers": 8, "userEngagementDuration": 744, "engagementRate": 0.6428571428571429, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.004873+00:00"}
+{'date': '20221004', 'totalUsers': 8, 'userEngagementDuration': 249, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-04T00:00:00+00:00", "totalUsers": 8, "userEngagementDuration": 249, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.005499+00:00"}
+{'date': '20221018', 'totalUsers': 8, 'userEngagementDuration': 80, 'engagementRate': 0.375, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-18T00:00:00+00:00", "totalUsers": 8, "userEngagementDuration": 80, "engagementRate": 0.375, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.006192+00:00"}
+{'date': '20210323', 'totalUsers': 7, 'userEngagementDuration': 269, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-23T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 269, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.006796+00:00"}
+{'date': '20210329', 'totalUsers': 7, 'userEngagementDuration': 665, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-29T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 665, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.007414+00:00"}
+{'date': '20210423', 'totalUsers': 7, 'userEngagementDuration': 486, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-23T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 486, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.008030+00:00"}
+{'date': '20210929', 'totalUsers': 7, 'userEngagementDuration': 107, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-29T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 107, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.008620+00:00"}
+{'date': '20211101', 'totalUsers': 7, 'userEngagementDuration': 497, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-01T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 497, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.009237+00:00"}
+{'date': '20220110', 'totalUsers': 7, 'userEngagementDuration': 364, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-10T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 364, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.009848+00:00"}
+{'date': '20220314', 'totalUsers': 7, 'userEngagementDuration': 215, 'engagementRate': 0.5714285714285714, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-14T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 215, "engagementRate": 0.5714285714285714, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.010460+00:00"}
+{'date': '20220329', 'totalUsers': 7, 'userEngagementDuration': 953, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-29T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 953, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.011122+00:00"}
+{'date': '20220518', 'totalUsers': 7, 'userEngagementDuration': 333, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-18T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 333, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.011719+00:00"}
+{'date': '20220601', 'totalUsers': 7, 'userEngagementDuration': 129, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-01T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 129, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.012343+00:00"}
+{'date': '20220616', 'totalUsers': 7, 'userEngagementDuration': 221, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-16T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 221, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.012935+00:00"}
+{'date': '20220714', 'totalUsers': 7, 'userEngagementDuration': 136, 'engagementRate': 0.4444444444444444, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-14T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 136, "engagementRate": 0.4444444444444444, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.013558+00:00"}
+{'date': '20220810', 'totalUsers': 7, 'userEngagementDuration': 5, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-10T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 5, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.014170+00:00"}
+{'date': '20220825', 'totalUsers': 7, 'userEngagementDuration': 763, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-25T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 763, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.014751+00:00"}
+{'date': '20220826', 'totalUsers': 7, 'userEngagementDuration': 182, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-26T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 182, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.015344+00:00"}
+{'date': '20220830', 'totalUsers': 7, 'userEngagementDuration': 208, 'engagementRate': 0.5714285714285714, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-30T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 208, "engagementRate": 0.5714285714285714, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.015940+00:00"}
+{'date': '20221007', 'totalUsers': 7, 'userEngagementDuration': 434, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-07T00:00:00+00:00", "totalUsers": 7, "userEngagementDuration": 434, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.017066+00:00"}
+{'date': '20210310', 'totalUsers': 6, 'userEngagementDuration': 3177, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-10T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 3177, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.017703+00:00"}
+{'date': '20210311', 'totalUsers': 6, 'userEngagementDuration': 2838, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-11T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 2838, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.018316+00:00"}
+{'date': '20210401', 'totalUsers': 6, 'userEngagementDuration': 361, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-01T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 361, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.018900+00:00"}
+{'date': '20210409', 'totalUsers': 6, 'userEngagementDuration': 888, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-09T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 888, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.019560+00:00"}
+{'date': '20210424', 'totalUsers': 6, 'userEngagementDuration': 44, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-24T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 44, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.020140+00:00"}
+{'date': '20210426', 'totalUsers': 6, 'userEngagementDuration': 230, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-26T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 230, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.020754+00:00"}
+{'date': '20210828', 'totalUsers': 6, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-28T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.021336+00:00"}
+{'date': '20210916', 'totalUsers': 6, 'userEngagementDuration': 349, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-16T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 349, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.021933+00:00"}
+{'date': '20210924', 'totalUsers': 6, 'userEngagementDuration': 551, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-24T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 551, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.022546+00:00"}
+{'date': '20211001', 'totalUsers': 6, 'userEngagementDuration': 954, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-01T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 954, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.023124+00:00"}
+{'date': '20211223', 'totalUsers': 6, 'userEngagementDuration': 2113, 'engagementRate': 0.8333333333333334, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-23T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 2113, "engagementRate": 0.8333333333333334, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.023727+00:00"}
+{'date': '20211224', 'totalUsers': 6, 'userEngagementDuration': 255, 'engagementRate': 0.8571428571428571, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-24T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 255, "engagementRate": 0.8571428571428571, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.024297+00:00"}
+{'date': '20220119', 'totalUsers': 6, 'userEngagementDuration': 67, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-19T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 67, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.024918+00:00"}
+{'date': '20220127', 'totalUsers': 6, 'userEngagementDuration': 246, 'engagementRate': 0.5714285714285714, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-27T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 246, "engagementRate": 0.5714285714285714, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.025506+00:00"}
+{'date': '20220203', 'totalUsers': 6, 'userEngagementDuration': 9, 'engagementRate': 0.16666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-03T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 9, "engagementRate": 0.16666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.026099+00:00"}
+{'date': '20220204', 'totalUsers': 6, 'userEngagementDuration': 446, 'engagementRate': 0.7142857142857143, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-04T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 446, "engagementRate": 0.7142857142857143, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.026705+00:00"}
+{'date': '20220217', 'totalUsers': 6, 'userEngagementDuration': 968, 'engagementRate': 0.5714285714285714, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-17T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 968, "engagementRate": 0.5714285714285714, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.027284+00:00"}
+{'date': '20220304', 'totalUsers': 6, 'userEngagementDuration': 508, 'engagementRate': 0.8333333333333334, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-04T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 508, "engagementRate": 0.8333333333333334, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.027875+00:00"}
+{'date': '20220412', 'totalUsers': 6, 'userEngagementDuration': 168, 'engagementRate': 0.7142857142857143, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-12T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 168, "engagementRate": 0.7142857142857143, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.028460+00:00"}
+{'date': '20220426', 'totalUsers': 6, 'userEngagementDuration': 173, 'engagementRate': 0.7142857142857143, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-26T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 173, "engagementRate": 0.7142857142857143, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.029052+00:00"}
+{'date': '20220504', 'totalUsers': 6, 'userEngagementDuration': 183, 'engagementRate': 0.8333333333333334, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-04T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 183, "engagementRate": 0.8333333333333334, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.029624+00:00"}
+{'date': '20220509', 'totalUsers': 6, 'userEngagementDuration': 135, 'engagementRate': 0.8571428571428571, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-09T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 135, "engagementRate": 0.8571428571428571, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.030223+00:00"}
+{'date': '20220527', 'totalUsers': 6, 'userEngagementDuration': 156, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-27T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 156, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.030794+00:00"}
+{'date': '20220602', 'totalUsers': 6, 'userEngagementDuration': 880, 'engagementRate': 0.7142857142857143, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-02T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 880, "engagementRate": 0.7142857142857143, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.031383+00:00"}
+{'date': '20220609', 'totalUsers': 6, 'userEngagementDuration': 188, 'engagementRate': 0.8571428571428571, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-09T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 188, "engagementRate": 0.8571428571428571, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.031953+00:00"}
+{'date': '20220615', 'totalUsers': 6, 'userEngagementDuration': 203, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-15T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 203, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.032595+00:00"}
+{'date': '20220711', 'totalUsers': 6, 'userEngagementDuration': 196, 'engagementRate': 0.5714285714285714, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-11T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 196, "engagementRate": 0.5714285714285714, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.033198+00:00"}
+{'date': '20220713', 'totalUsers': 6, 'userEngagementDuration': 356, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-13T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 356, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.033772+00:00"}
+{'date': '20220720', 'totalUsers': 6, 'userEngagementDuration': 242, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-20T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 242, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.034365+00:00"}
+{'date': '20220801', 'totalUsers': 6, 'userEngagementDuration': 795, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-01T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 795, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.034932+00:00"}
+{'date': '20220803', 'totalUsers': 6, 'userEngagementDuration': 129, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-03T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 129, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.035538+00:00"}
+{'date': '20220804', 'totalUsers': 6, 'userEngagementDuration': 114, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-04T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 114, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.036154+00:00"}
+{'date': '20220909', 'totalUsers': 6, 'userEngagementDuration': 60, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-09T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 60, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.036731+00:00"}
+{'date': '20220917', 'totalUsers': 6, 'userEngagementDuration': 114, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-17T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 114, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.037327+00:00"}
+{'date': '20220918', 'totalUsers': 6, 'userEngagementDuration': 564, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-18T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 564, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.037903+00:00"}
+{'date': '20220920', 'totalUsers': 6, 'userEngagementDuration': 304, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-20T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 304, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.038486+00:00"}
+{'date': '20220923', 'totalUsers': 6, 'userEngagementDuration': 185, 'engagementRate': 0.5714285714285714, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-23T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 185, "engagementRate": 0.5714285714285714, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.039079+00:00"}
+{'date': '20221005', 'totalUsers': 6, 'userEngagementDuration': 501, 'engagementRate': 0.5714285714285714, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-05T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 501, "engagementRate": 0.5714285714285714, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.039656+00:00"}
+{'date': '20221021', 'totalUsers': 6, 'userEngagementDuration': 171, 'engagementRate': 0.4444444444444444, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-21T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 171, "engagementRate": 0.4444444444444444, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.040284+00:00"}
+{'date': '20221025', 'totalUsers': 6, 'userEngagementDuration': 338, 'engagementRate': 0.7142857142857143, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-25T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 338, "engagementRate": 0.7142857142857143, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.040854+00:00"}
+{'date': '20221101', 'totalUsers': 6, 'userEngagementDuration': 108, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-01T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 108, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.041441+00:00"}
+{'date': '20221102', 'totalUsers': 6, 'userEngagementDuration': 674, 'engagementRate': 0.875, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-02T00:00:00+00:00", "totalUsers": 6, "userEngagementDuration": 674, "engagementRate": 0.875, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.042031+00:00"}
+{'date': '20210321', 'totalUsers': 5, 'userEngagementDuration': 522, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-21T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 522, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.042601+00:00"}
+{'date': '20210322', 'totalUsers': 5, 'userEngagementDuration': 111, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-22T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 111, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.043192+00:00"}
+{'date': '20210326', 'totalUsers': 5, 'userEngagementDuration': 571, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-26T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 571, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.043765+00:00"}
+{'date': '20210327', 'totalUsers': 5, 'userEngagementDuration': 71, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-27T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 71, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.044358+00:00"}
+{'date': '20210528', 'totalUsers': 5, 'userEngagementDuration': 152, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-28T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 152, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.044932+00:00"}
+{'date': '20210728', 'totalUsers': 5, 'userEngagementDuration': 553, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-28T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 553, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.045521+00:00"}
+{'date': '20210802', 'totalUsers': 5, 'userEngagementDuration': 818, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-02T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 818, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.046136+00:00"}
+{'date': '20211005', 'totalUsers': 5, 'userEngagementDuration': 15, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-05T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 15, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.046729+00:00"}
+{'date': '20211104', 'totalUsers': 5, 'userEngagementDuration': 228, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-04T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 228, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.047321+00:00"}
+{'date': '20211108', 'totalUsers': 5, 'userEngagementDuration': 23, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-08T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 23, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.047888+00:00"}
+{'date': '20211115', 'totalUsers': 5, 'userEngagementDuration': 215, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-15T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 215, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.048470+00:00"}
+{'date': '20211117', 'totalUsers': 5, 'userEngagementDuration': 79, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-17T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 79, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.049066+00:00"}
+{'date': '20211207', 'totalUsers': 5, 'userEngagementDuration': 197, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-07T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 197, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.049638+00:00"}
+{'date': '20211229', 'totalUsers': 5, 'userEngagementDuration': 111, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-29T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 111, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.050249+00:00"}
+{'date': '20220103', 'totalUsers': 5, 'userEngagementDuration': 115, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-03T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 115, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.050818+00:00"}
+{'date': '20220104', 'totalUsers': 5, 'userEngagementDuration': 157, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-04T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 157, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.051413+00:00"}
+{'date': '20220214', 'totalUsers': 5, 'userEngagementDuration': 149, 'engagementRate': 0.42857142857142855, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-14T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 149, "engagementRate": 0.42857142857142855, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.052008+00:00"}
+{'date': '20220224', 'totalUsers': 5, 'userEngagementDuration': 112, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-24T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 112, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.052596+00:00"}
+{'date': '20220310', 'totalUsers': 5, 'userEngagementDuration': 110, 'engagementRate': 0.4, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-10T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 110, "engagementRate": 0.4, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.053206+00:00"}
+{'date': '20220317', 'totalUsers': 5, 'userEngagementDuration': 139, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-17T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 139, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.053779+00:00"}
+{'date': '20220323', 'totalUsers': 5, 'userEngagementDuration': 125, 'engagementRate': 0.8, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-23T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 125, "engagementRate": 0.8, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.054367+00:00"}
+{'date': '20220330', 'totalUsers': 5, 'userEngagementDuration': 223, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-30T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 223, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.054936+00:00"}
+{'date': '20220407', 'totalUsers': 5, 'userEngagementDuration': 108, 'engagementRate': 0.8333333333333334, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-07T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 108, "engagementRate": 0.8333333333333334, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.055527+00:00"}
+{'date': '20220408', 'totalUsers': 5, 'userEngagementDuration': 35, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-08T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 35, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.056141+00:00"}
+{'date': '20220413', 'totalUsers': 5, 'userEngagementDuration': 214, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-13T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 214, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.056712+00:00"}
+{'date': '20220425', 'totalUsers': 5, 'userEngagementDuration': 36, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-25T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 36, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.057310+00:00"}
+{'date': '20220510', 'totalUsers': 5, 'userEngagementDuration': 240, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-10T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 240, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.057878+00:00"}
+{'date': '20220511', 'totalUsers': 5, 'userEngagementDuration': 106, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-11T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 106, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.058452+00:00"}
+{'date': '20220516', 'totalUsers': 5, 'userEngagementDuration': 1767, 'engagementRate': 0.8333333333333334, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-16T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 1767, "engagementRate": 0.8333333333333334, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.059053+00:00"}
+{'date': '20220520', 'totalUsers': 5, 'userEngagementDuration': 217, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-20T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 217, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.059622+00:00"}
+{'date': '20220523', 'totalUsers': 5, 'userEngagementDuration': 115, 'engagementRate': 0.4, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-23T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 115, "engagementRate": 0.4, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.060219+00:00"}
+{'date': '20220623', 'totalUsers': 5, 'userEngagementDuration': 25, 'engagementRate': 0.4, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-23T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 25, "engagementRate": 0.4, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.060788+00:00"}
+{'date': '20220627', 'totalUsers': 5, 'userEngagementDuration': 92, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-27T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 92, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.061379+00:00"}
+{'date': '20220709', 'totalUsers': 5, 'userEngagementDuration': 351, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-09T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 351, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.061950+00:00"}
+{'date': '20220710', 'totalUsers': 5, 'userEngagementDuration': 234, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-10T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 234, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.062539+00:00"}
+{'date': '20220805', 'totalUsers': 5, 'userEngagementDuration': 211, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-05T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 211, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.063145+00:00"}
+{'date': '20220808', 'totalUsers': 5, 'userEngagementDuration': 71, 'engagementRate': 0.4, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-08T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 71, "engagementRate": 0.4, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.063715+00:00"}
+{'date': '20220809', 'totalUsers': 5, 'userEngagementDuration': 39, 'engagementRate': 0.4, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-09T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 39, "engagementRate": 0.4, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.064338+00:00"}
+{'date': '20220912', 'totalUsers': 5, 'userEngagementDuration': 929, 'engagementRate': 0.8, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-12T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 929, "engagementRate": 0.8, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.064910+00:00"}
+{'date': '20221011', 'totalUsers': 5, 'userEngagementDuration': 157, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-11T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 157, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.065525+00:00"}
+{'date': '20221012', 'totalUsers': 5, 'userEngagementDuration': 74, 'engagementRate': 0.8, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-12T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 74, "engagementRate": 0.8, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.066138+00:00"}
+{'date': '20221026', 'totalUsers': 5, 'userEngagementDuration': 58, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-26T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 58, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.066711+00:00"}
+{'date': '20221031', 'totalUsers': 5, 'userEngagementDuration': 215, 'engagementRate': 0.5714285714285714, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-31T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 215, "engagementRate": 0.5714285714285714, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.067311+00:00"}
+{'date': '20221103', 'totalUsers': 5, 'userEngagementDuration': 359, 'engagementRate': 0.8333333333333334, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-03T00:00:00+00:00", "totalUsers": 5, "userEngagementDuration": 359, "engagementRate": 0.8333333333333334, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.067886+00:00"}
+{'date': '20210319', 'totalUsers': 4, 'userEngagementDuration': 82, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-19T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 82, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.068464+00:00"}
+{'date': '20210320', 'totalUsers': 4, 'userEngagementDuration': 14, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-20T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 14, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.069055+00:00"}
+{'date': '20210330', 'totalUsers': 4, 'userEngagementDuration': 167, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-03-30T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 167, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.069663+00:00"}
+{'date': '20210408', 'totalUsers': 4, 'userEngagementDuration': 349, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-08T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 349, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.070257+00:00"}
+{'date': '20210411', 'totalUsers': 4, 'userEngagementDuration': 35, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-11T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 35, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.070827+00:00"}
+{'date': '20210428', 'totalUsers': 4, 'userEngagementDuration': 86, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-28T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 86, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.071418+00:00"}
+{'date': '20210521', 'totalUsers': 4, 'userEngagementDuration': 6, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-21T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 6, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.072005+00:00"}
+{'date': '20210525', 'totalUsers': 4, 'userEngagementDuration': 28, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-25T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 28, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.072576+00:00"}
+{'date': '20210630', 'totalUsers': 4, 'userEngagementDuration': 199, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-30T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 199, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.073173+00:00"}
+{'date': '20210705', 'totalUsers': 4, 'userEngagementDuration': 366, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-05T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 366, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.073739+00:00"}
+{'date': '20210719', 'totalUsers': 4, 'userEngagementDuration': 136, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-19T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 136, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.074327+00:00"}
+{'date': '20210804', 'totalUsers': 4, 'userEngagementDuration': 59, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-04T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 59, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.074925+00:00"}
+{'date': '20210810', 'totalUsers': 4, 'userEngagementDuration': 387, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-10T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 387, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.075502+00:00"}
+{'date': '20210816', 'totalUsers': 4, 'userEngagementDuration': 787, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-16T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 787, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.076134+00:00"}
+{'date': '20210817', 'totalUsers': 4, 'userEngagementDuration': 280, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-17T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 280, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.076729+00:00"}
+{'date': '20210826', 'totalUsers': 4, 'userEngagementDuration': 84, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-26T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 84, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.077360+00:00"}
+{'date': '20210908', 'totalUsers': 4, 'userEngagementDuration': 515, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-08T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 515, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.077969+00:00"}
+{'date': '20211002', 'totalUsers': 4, 'userEngagementDuration': 340, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-02T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 340, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.078615+00:00"}
+{'date': '20211004', 'totalUsers': 4, 'userEngagementDuration': 91, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-04T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 91, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.079245+00:00"}
+{'date': '20211012', 'totalUsers': 4, 'userEngagementDuration': 168, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-12T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 168, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.079828+00:00"}
+{'date': '20211018', 'totalUsers': 4, 'userEngagementDuration': 30, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-18T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 30, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.080492+00:00"}
+{'date': '20211020', 'totalUsers': 4, 'userEngagementDuration': 676, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-20T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 676, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.081122+00:00"}
+{'date': '20211023', 'totalUsers': 4, 'userEngagementDuration': 40, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-23T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 40, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.081730+00:00"}
+{'date': '20211103', 'totalUsers': 4, 'userEngagementDuration': 435, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-03T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 435, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.082348+00:00"}
+{'date': '20211119', 'totalUsers': 4, 'userEngagementDuration': 0, 'engagementRate': 0.25, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-19T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 0, "engagementRate": 0.25, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.082939+00:00"}
+{'date': '20211120', 'totalUsers': 4, 'userEngagementDuration': 46, 'engagementRate': 0.25, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-20T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 46, "engagementRate": 0.25, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.083571+00:00"}
+{'date': '20211125', 'totalUsers': 4, 'userEngagementDuration': 40, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-25T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 40, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.084224+00:00"}
+{'date': '20211130', 'totalUsers': 4, 'userEngagementDuration': 51, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-30T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 51, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.084845+00:00"}
+{'date': '20211206', 'totalUsers': 4, 'userEngagementDuration': 326, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-06T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 326, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.085463+00:00"}
+{'date': '20220111', 'totalUsers': 4, 'userEngagementDuration': 130, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-11T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 130, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.086128+00:00"}
+{'date': '20220114', 'totalUsers': 4, 'userEngagementDuration': 204, 'engagementRate': 0.7142857142857143, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-14T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 204, "engagementRate": 0.7142857142857143, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.086732+00:00"}
+{'date': '20220128', 'totalUsers': 4, 'userEngagementDuration': 227, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-28T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 227, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.087338+00:00"}
+{'date': '20220215', 'totalUsers': 4, 'userEngagementDuration': 37, 'engagementRate': 0.25, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-15T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 37, "engagementRate": 0.25, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.087930+00:00"}
+{'date': '20220216', 'totalUsers': 4, 'userEngagementDuration': 42, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-16T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 42, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.088547+00:00"}
+{'date': '20220225', 'totalUsers': 4, 'userEngagementDuration': 652, 'engagementRate': 0.8333333333333334, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-25T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 652, "engagementRate": 0.8333333333333334, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.089172+00:00"}
+{'date': '20220301', 'totalUsers': 4, 'userEngagementDuration': 759, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-01T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 759, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.089763+00:00"}
+{'date': '20220302', 'totalUsers': 4, 'userEngagementDuration': 98, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-02T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 98, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.090435+00:00"}
+{'date': '20220307', 'totalUsers': 4, 'userEngagementDuration': 198, 'engagementRate': 0.5714285714285714, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-07T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 198, "engagementRate": 0.5714285714285714, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.091073+00:00"}
+{'date': '20220311', 'totalUsers': 4, 'userEngagementDuration': 348, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-11T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 348, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.091684+00:00"}
+{'date': '20220315', 'totalUsers': 4, 'userEngagementDuration': 60, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-15T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 60, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.092316+00:00"}
+{'date': '20220318', 'totalUsers': 4, 'userEngagementDuration': 306, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-18T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 306, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.092932+00:00"}
+{'date': '20220322', 'totalUsers': 4, 'userEngagementDuration': 348, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-22T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 348, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.093553+00:00"}
+{'date': '20220422', 'totalUsers': 4, 'userEngagementDuration': 286, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-22T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 286, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.094162+00:00"}
+{'date': '20220428', 'totalUsers': 4, 'userEngagementDuration': 66, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-28T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 66, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.094743+00:00"}
+{'date': '20220429', 'totalUsers': 4, 'userEngagementDuration': 33, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-29T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 33, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.095371+00:00"}
+{'date': '20220503', 'totalUsers': 4, 'userEngagementDuration': 161, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-03T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 161, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.095981+00:00"}
+{'date': '20220513', 'totalUsers': 4, 'userEngagementDuration': 3478, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-13T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 3478, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.096774+00:00"}
+{'date': '20220519', 'totalUsers': 4, 'userEngagementDuration': 117, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-19T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 117, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.097395+00:00"}
+{'date': '20220612', 'totalUsers': 4, 'userEngagementDuration': 15, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-12T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 15, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.098019+00:00"}
+{'date': '20220614', 'totalUsers': 4, 'userEngagementDuration': 126, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-14T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 126, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.098618+00:00"}
+{'date': '20220622', 'totalUsers': 4, 'userEngagementDuration': 325, 'engagementRate': 0.8333333333333334, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-22T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 325, "engagementRate": 0.8333333333333334, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.099280+00:00"}
+{'date': '20220701', 'totalUsers': 4, 'userEngagementDuration': 57, 'engagementRate': 0.4, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-01T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 57, "engagementRate": 0.4, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.099939+00:00"}
+{'date': '20220706', 'totalUsers': 4, 'userEngagementDuration': 179, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-06T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 179, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.100583+00:00"}
+{'date': '20220719', 'totalUsers': 4, 'userEngagementDuration': 52, 'engagementRate': 0.25, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-19T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 52, "engagementRate": 0.25, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.101186+00:00"}
+{'date': '20220726', 'totalUsers': 4, 'userEngagementDuration': 244, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-26T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 244, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.101809+00:00"}
+{'date': '20220823', 'totalUsers': 4, 'userEngagementDuration': 71, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-23T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 71, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.102397+00:00"}
+{'date': '20220829', 'totalUsers': 4, 'userEngagementDuration': 72, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-29T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 72, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.103002+00:00"}
+{'date': '20220831', 'totalUsers': 4, 'userEngagementDuration': 122, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-31T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 122, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.103630+00:00"}
+{'date': '20220905', 'totalUsers': 4, 'userEngagementDuration': 34, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-05T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 34, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.104233+00:00"}
+{'date': '20220922', 'totalUsers': 4, 'userEngagementDuration': 10, 'engagementRate': 0.2, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-22T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 10, "engagementRate": 0.2, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.104854+00:00"}
+{'date': '20221001', 'totalUsers': 4, 'userEngagementDuration': 222, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-01T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 222, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.105476+00:00"}
+{'date': '20221027', 'totalUsers': 4, 'userEngagementDuration': 254, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-27T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 254, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.106116+00:00"}
+{'date': '20221028', 'totalUsers': 4, 'userEngagementDuration': 136, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-28T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 136, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.106808+00:00"}
+{'date': '20221106', 'totalUsers': 4, 'userEngagementDuration': 422, 'engagementRate': 0.4, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-06T00:00:00+00:00", "totalUsers": 4, "userEngagementDuration": 422, "engagementRate": 0.4, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.107496+00:00"}
+{'date': '20210402', 'totalUsers': 3, 'userEngagementDuration': 3, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-02T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 3, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.108155+00:00"}
+{'date': '20210403', 'totalUsers': 3, 'userEngagementDuration': 158, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-03T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 158, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.108801+00:00"}
+{'date': '20210405', 'totalUsers': 3, 'userEngagementDuration': 17, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-05T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 17, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.109430+00:00"}
+{'date': '20210410', 'totalUsers': 3, 'userEngagementDuration': 228, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-10T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 228, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.110079+00:00"}
+{'date': '20210414', 'totalUsers': 3, 'userEngagementDuration': 78, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-14T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 78, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.110694+00:00"}
+{'date': '20210418', 'totalUsers': 3, 'userEngagementDuration': 226, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-18T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 226, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.111272+00:00"}
+{'date': '20210422', 'totalUsers': 3, 'userEngagementDuration': 685, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-22T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 685, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.111865+00:00"}
+{'date': '20210520', 'totalUsers': 3, 'userEngagementDuration': 4, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-20T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 4, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.112440+00:00"}
+{'date': '20210601', 'totalUsers': 3, 'userEngagementDuration': 1, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-01T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 1, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.113024+00:00"}
+{'date': '20210605', 'totalUsers': 3, 'userEngagementDuration': 130, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-05T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 130, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.113632+00:00"}
+{'date': '20210625', 'totalUsers': 3, 'userEngagementDuration': 122, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-25T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 122, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.114256+00:00"}
+{'date': '20210626', 'totalUsers': 3, 'userEngagementDuration': 70, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-26T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 70, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.114908+00:00"}
+{'date': '20210716', 'totalUsers': 3, 'userEngagementDuration': 47, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-16T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 47, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.115566+00:00"}
+{'date': '20210801', 'totalUsers': 3, 'userEngagementDuration': 215, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-01T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 215, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.116197+00:00"}
+{'date': '20210805', 'totalUsers': 3, 'userEngagementDuration': 130, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-05T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 130, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.116816+00:00"}
+{'date': '20210812', 'totalUsers': 3, 'userEngagementDuration': 12, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-12T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 12, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.117413+00:00"}
+{'date': '20210903', 'totalUsers': 3, 'userEngagementDuration': 57, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-03T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 57, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.118040+00:00"}
+{'date': '20210913', 'totalUsers': 3, 'userEngagementDuration': 102, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-13T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 102, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.118694+00:00"}
+{'date': '20210918', 'totalUsers': 3, 'userEngagementDuration': 103, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-18T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 103, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.119281+00:00"}
+{'date': '20210922', 'totalUsers': 3, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-22T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.119912+00:00"}
+{'date': '20210923', 'totalUsers': 3, 'userEngagementDuration': 213, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-23T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 213, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.120494+00:00"}
+{'date': '20211011', 'totalUsers': 3, 'userEngagementDuration': 534, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-11T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 534, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.121095+00:00"}
+{'date': '20211013', 'totalUsers': 3, 'userEngagementDuration': 6, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-13T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 6, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.121699+00:00"}
+{'date': '20211019', 'totalUsers': 3, 'userEngagementDuration': 100, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-19T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 100, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.122273+00:00"}
+{'date': '20211022', 'totalUsers': 3, 'userEngagementDuration': 48, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-22T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 48, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.123094+00:00"}
+{'date': '20211024', 'totalUsers': 3, 'userEngagementDuration': 463, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-24T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 463, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.123819+00:00"}
+{'date': '20211025', 'totalUsers': 3, 'userEngagementDuration': 53, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-25T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 53, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.124569+00:00"}
+{'date': '20211109', 'totalUsers': 3, 'userEngagementDuration': 148, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-09T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 148, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.125304+00:00"}
+{'date': '20211123', 'totalUsers': 3, 'userEngagementDuration': 124, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-23T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 124, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.125980+00:00"}
+{'date': '20211201', 'totalUsers': 3, 'userEngagementDuration': 552, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-01T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 552, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.126615+00:00"}
+{'date': '20211203', 'totalUsers': 3, 'userEngagementDuration': 18, 'engagementRate': 0.25, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-03T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 18, "engagementRate": 0.25, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.127226+00:00"}
+{'date': '20211209', 'totalUsers': 3, 'userEngagementDuration': 308, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-09T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 308, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.127850+00:00"}
+{'date': '20211215', 'totalUsers': 3, 'userEngagementDuration': 158, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-15T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 158, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.128449+00:00"}
+{'date': '20211225', 'totalUsers': 3, 'userEngagementDuration': 52, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-25T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 52, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.129054+00:00"}
+{'date': '20220117', 'totalUsers': 3, 'userEngagementDuration': 126, 'engagementRate': 0.4, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-17T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 126, "engagementRate": 0.4, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.129666+00:00"}
+{'date': '20220118', 'totalUsers': 3, 'userEngagementDuration': 214, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-18T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 214, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.130246+00:00"}
+{'date': '20220121', 'totalUsers': 3, 'userEngagementDuration': 41, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-21T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 41, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.130850+00:00"}
+{'date': '20220124', 'totalUsers': 3, 'userEngagementDuration': 94, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-24T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 94, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.131429+00:00"}
+{'date': '20220126', 'totalUsers': 3, 'userEngagementDuration': 13, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-26T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 13, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.132014+00:00"}
+{'date': '20220201', 'totalUsers': 3, 'userEngagementDuration': 110, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-01T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 110, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.132621+00:00"}
+{'date': '20220205', 'totalUsers': 3, 'userEngagementDuration': 689, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-05T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 689, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.133231+00:00"}
+{'date': '20220212', 'totalUsers': 3, 'userEngagementDuration': 40, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-12T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 40, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.133848+00:00"}
+{'date': '20220213', 'totalUsers': 3, 'userEngagementDuration': 11, 'engagementRate': 0.25, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-13T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 11, "engagementRate": 0.25, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.134425+00:00"}
+{'date': '20220220', 'totalUsers': 3, 'userEngagementDuration': 68, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-20T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 68, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.135013+00:00"}
+{'date': '20220221', 'totalUsers': 3, 'userEngagementDuration': 115, 'engagementRate': 0.4, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-21T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 115, "engagementRate": 0.4, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.135616+00:00"}
+{'date': '20220223', 'totalUsers': 3, 'userEngagementDuration': 414, 'engagementRate': 0.6, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-23T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 414, "engagementRate": 0.6, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.136228+00:00"}
+{'date': '20220226', 'totalUsers': 3, 'userEngagementDuration': 103, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-26T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 103, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.136834+00:00"}
+{'date': '20220306', 'totalUsers': 3, 'userEngagementDuration': 86, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-06T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 86, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.137409+00:00"}
+{'date': '20220328', 'totalUsers': 3, 'userEngagementDuration': 125, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-28T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 125, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.137987+00:00"}
+{'date': '20220410', 'totalUsers': 3, 'userEngagementDuration': 156, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-10T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 156, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.138587+00:00"}
+{'date': '20220415', 'totalUsers': 3, 'userEngagementDuration': 88, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-15T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 88, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.139171+00:00"}
+{'date': '20220419', 'totalUsers': 3, 'userEngagementDuration': 31, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-19T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 31, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.139826+00:00"}
+{'date': '20220521', 'totalUsers': 3, 'userEngagementDuration': 202, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-21T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 202, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.140401+00:00"}
+{'date': '20220529', 'totalUsers': 3, 'userEngagementDuration': 10, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-29T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 10, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.140981+00:00"}
+{'date': '20220608', 'totalUsers': 3, 'userEngagementDuration': 61, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-08T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 61, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.141590+00:00"}
+{'date': '20220611', 'totalUsers': 3, 'userEngagementDuration': 155, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-11T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 155, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.142162+00:00"}
+{'date': '20220619', 'totalUsers': 3, 'userEngagementDuration': 228, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-19T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 228, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.142762+00:00"}
+{'date': '20220620', 'totalUsers': 3, 'userEngagementDuration': 46, 'engagementRate': 0.25, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-20T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 46, "engagementRate": 0.25, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.143338+00:00"}
+{'date': '20220625', 'totalUsers': 3, 'userEngagementDuration': 26, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-25T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 26, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.143945+00:00"}
+{'date': '20220629', 'totalUsers': 3, 'userEngagementDuration': 32, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-29T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 32, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.144511+00:00"}
+{'date': '20220705', 'totalUsers': 3, 'userEngagementDuration': 68, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-05T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 68, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.145111+00:00"}
+{'date': '20220712', 'totalUsers': 3, 'userEngagementDuration': 8, 'engagementRate': 0.25, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-12T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 8, "engagementRate": 0.25, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.145724+00:00"}
+{'date': '20220722', 'totalUsers': 3, 'userEngagementDuration': 49, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-22T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 49, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.146315+00:00"}
+{'date': '20220727', 'totalUsers': 3, 'userEngagementDuration': 188, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-27T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 188, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.146909+00:00"}
+{'date': '20220802', 'totalUsers': 3, 'userEngagementDuration': 139, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-02T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 139, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.147482+00:00"}
+{'date': '20220812', 'totalUsers': 3, 'userEngagementDuration': 16, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-12T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 16, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.148084+00:00"}
+{'date': '20220815', 'totalUsers': 3, 'userEngagementDuration': 101, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-15T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 101, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.148691+00:00"}
+{'date': '20220817', 'totalUsers': 3, 'userEngagementDuration': 36, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-17T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 36, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.149266+00:00"}
+{'date': '20221006', 'totalUsers': 3, 'userEngagementDuration': 575, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-06T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 575, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.149859+00:00"}
+{'date': '20221020', 'totalUsers': 3, 'userEngagementDuration': 45, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-20T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 45, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.150431+00:00"}
+{'date': '20221024', 'totalUsers': 3, 'userEngagementDuration': 60, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-24T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 60, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.151014+00:00"}
+{'date': '20221105', 'totalUsers': 3, 'userEngagementDuration': 276, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-05T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 276, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.151613+00:00"}
+{'date': '20221108', 'totalUsers': 3, 'userEngagementDuration': 58, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-08T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 58, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.152214+00:00"}
+{'date': '20221109', 'totalUsers': 3, 'userEngagementDuration': 224, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-09T00:00:00+00:00", "totalUsers": 3, "userEngagementDuration": 224, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.152819+00:00"}
+{'date': '20210404', 'totalUsers': 2, 'userEngagementDuration': 56, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-04T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 56, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.153393+00:00"}
+{'date': '20210406', 'totalUsers': 2, 'userEngagementDuration': 96, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-06T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 96, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.153977+00:00"}
+{'date': '20210413', 'totalUsers': 2, 'userEngagementDuration': 63, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-13T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 63, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.154600+00:00"}
+{'date': '20210415', 'totalUsers': 2, 'userEngagementDuration': 5, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-15T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 5, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.155172+00:00"}
+{'date': '20210419', 'totalUsers': 2, 'userEngagementDuration': 8, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-19T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 8, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.155813+00:00"}
+{'date': '20210429', 'totalUsers': 2, 'userEngagementDuration': 103, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-29T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 103, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.156399+00:00"}
+{'date': '20210501', 'totalUsers': 2, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-01T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.156979+00:00"}
+{'date': '20210505', 'totalUsers': 2, 'userEngagementDuration': 75, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-05T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 75, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.157575+00:00"}
+{'date': '20210507', 'totalUsers': 2, 'userEngagementDuration': 1, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-07T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 1, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.158169+00:00"}
+{'date': '20210510', 'totalUsers': 2, 'userEngagementDuration': 58, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-10T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 58, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.158776+00:00"}
+{'date': '20210511', 'totalUsers': 2, 'userEngagementDuration': 89, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-11T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 89, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.159354+00:00"}
+{'date': '20210516', 'totalUsers': 2, 'userEngagementDuration': 31, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-16T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 31, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.160056+00:00"}
+{'date': '20210607', 'totalUsers': 2, 'userEngagementDuration': 37, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-07T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 37, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.160681+00:00"}
+{'date': '20210611', 'totalUsers': 2, 'userEngagementDuration': 109, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-11T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 109, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.161263+00:00"}
+{'date': '20210618', 'totalUsers': 2, 'userEngagementDuration': 34, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-18T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 34, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.161859+00:00"}
+{'date': '20210629', 'totalUsers': 2, 'userEngagementDuration': 162, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-29T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 162, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.162432+00:00"}
+{'date': '20210701', 'totalUsers': 2, 'userEngagementDuration': 33, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-01T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 33, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.163021+00:00"}
+{'date': '20210707', 'totalUsers': 2, 'userEngagementDuration': 286, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-07T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 286, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.163611+00:00"}
+{'date': '20210711', 'totalUsers': 2, 'userEngagementDuration': 225, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-11T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 225, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.164203+00:00"}
+{'date': '20210723', 'totalUsers': 2, 'userEngagementDuration': 322, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-23T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 322, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.164807+00:00"}
+{'date': '20210727', 'totalUsers': 2, 'userEngagementDuration': 18, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-27T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 18, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.165373+00:00"}
+{'date': '20210803', 'totalUsers': 2, 'userEngagementDuration': 2, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-03T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 2, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.165977+00:00"}
+{'date': '20210808', 'totalUsers': 2, 'userEngagementDuration': 86, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-08T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 86, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.166584+00:00"}
+{'date': '20210809', 'totalUsers': 2, 'userEngagementDuration': 52, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-09T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 52, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.167156+00:00"}
+{'date': '20210813', 'totalUsers': 2, 'userEngagementDuration': 61, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-13T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 61, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.167761+00:00"}
+{'date': '20210815', 'totalUsers': 2, 'userEngagementDuration': 130, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-15T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 130, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.168338+00:00"}
+{'date': '20210818', 'totalUsers': 2, 'userEngagementDuration': 145, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-18T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 145, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.168933+00:00"}
+{'date': '20210821', 'totalUsers': 2, 'userEngagementDuration': 116, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-21T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 116, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.169512+00:00"}
+{'date': '20210902', 'totalUsers': 2, 'userEngagementDuration': 231, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-02T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 231, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.170126+00:00"}
+{'date': '20210911', 'totalUsers': 2, 'userEngagementDuration': 329, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-11T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 329, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.170741+00:00"}
+{'date': '20210917', 'totalUsers': 2, 'userEngagementDuration': 56, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-17T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 56, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.171318+00:00"}
+{'date': '20210925', 'totalUsers': 2, 'userEngagementDuration': 31, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-25T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 31, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.171908+00:00"}
+{'date': '20211003', 'totalUsers': 2, 'userEngagementDuration': 7, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-03T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 7, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.172481+00:00"}
+{'date': '20211006', 'totalUsers': 2, 'userEngagementDuration': 53, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-06T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 53, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.173075+00:00"}
+{'date': '20211007', 'totalUsers': 2, 'userEngagementDuration': 23, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-07T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 23, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.173681+00:00"}
+{'date': '20211008', 'totalUsers': 2, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-08T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.174253+00:00"}
+{'date': '20211015', 'totalUsers': 2, 'userEngagementDuration': 62, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-15T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 62, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.174852+00:00"}
+{'date': '20211021', 'totalUsers': 2, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-21T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.175425+00:00"}
+{'date': '20211029', 'totalUsers': 2, 'userEngagementDuration': 61, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-29T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 61, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.176339+00:00"}
+{'date': '20211105', 'totalUsers': 2, 'userEngagementDuration': 11, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-05T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 11, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.176968+00:00"}
+{'date': '20211110', 'totalUsers': 2, 'userEngagementDuration': 71, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-10T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 71, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.177594+00:00"}
+{'date': '20211112', 'totalUsers': 2, 'userEngagementDuration': 204, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-12T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 204, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.178179+00:00"}
+{'date': '20211116', 'totalUsers': 2, 'userEngagementDuration': 138, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-16T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 138, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.178783+00:00"}
+{'date': '20211118', 'totalUsers': 2, 'userEngagementDuration': 285, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-18T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 285, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.179358+00:00"}
+{'date': '20211122', 'totalUsers': 2, 'userEngagementDuration': 25, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-22T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 25, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.179964+00:00"}
+{'date': '20211202', 'totalUsers': 2, 'userEngagementDuration': 7, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-02T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 7, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.180557+00:00"}
+{'date': '20211212', 'totalUsers': 2, 'userEngagementDuration': 28, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-12T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 28, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.181135+00:00"}
+{'date': '20211217', 'totalUsers': 2, 'userEngagementDuration': 191, 'engagementRate': 0.75, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-17T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 191, "engagementRate": 0.75, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.181747+00:00"}
+{'date': '20211219', 'totalUsers': 2, 'userEngagementDuration': 73, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-19T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 73, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.182320+00:00"}
+{'date': '20211221', 'totalUsers': 2, 'userEngagementDuration': 19, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-21T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 19, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.182911+00:00"}
+{'date': '20211228', 'totalUsers': 2, 'userEngagementDuration': 18, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-28T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 18, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.183487+00:00"}
+{'date': '20211230', 'totalUsers': 2, 'userEngagementDuration': 210, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-30T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 210, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.184085+00:00"}
+{'date': '20220102', 'totalUsers': 2, 'userEngagementDuration': 186, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-02T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 186, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.184723+00:00"}
+{'date': '20220105', 'totalUsers': 2, 'userEngagementDuration': 18, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-05T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 18, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.185340+00:00"}
+{'date': '20220129', 'totalUsers': 2, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-29T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.185978+00:00"}
+{'date': '20220131', 'totalUsers': 2, 'userEngagementDuration': 88, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-31T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 88, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.186584+00:00"}
+{'date': '20220206', 'totalUsers': 2, 'userEngagementDuration': 9, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-06T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 9, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.187167+00:00"}
+{'date': '20220208', 'totalUsers': 2, 'userEngagementDuration': 339, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-08T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 339, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.187774+00:00"}
+{'date': '20220209', 'totalUsers': 2, 'userEngagementDuration': 11, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-09T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 11, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.188357+00:00"}
+{'date': '20220210', 'totalUsers': 2, 'userEngagementDuration': 132, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-10T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 132, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.188957+00:00"}
+{'date': '20220219', 'totalUsers': 2, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-19T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.189547+00:00"}
+{'date': '20220305', 'totalUsers': 2, 'userEngagementDuration': 58, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-05T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 58, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.190168+00:00"}
+{'date': '20220320', 'totalUsers': 2, 'userEngagementDuration': 33, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-20T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 33, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.190744+00:00"}
+{'date': '20220324', 'totalUsers': 2, 'userEngagementDuration': 21, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-24T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 21, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.191469+00:00"}
+{'date': '20220325', 'totalUsers': 2, 'userEngagementDuration': 33, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-25T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 33, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.192104+00:00"}
+{'date': '20220327', 'totalUsers': 2, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-27T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.192689+00:00"}
+{'date': '20220401', 'totalUsers': 2, 'userEngagementDuration': 99, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-01T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 99, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.193303+00:00"}
+{'date': '20220402', 'totalUsers': 2, 'userEngagementDuration': 30, 'engagementRate': 0.6666666666666666, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-02T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 30, "engagementRate": 0.6666666666666666, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.193887+00:00"}
+{'date': '20220403', 'totalUsers': 2, 'userEngagementDuration': 83, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-03T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 83, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.194489+00:00"}
+{'date': '20220404', 'totalUsers': 2, 'userEngagementDuration': 124, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-04T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 124, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.195095+00:00"}
+{'date': '20220406', 'totalUsers': 2, 'userEngagementDuration': 38, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-06T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 38, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.195702+00:00"}
+{'date': '20220411', 'totalUsers': 2, 'userEngagementDuration': 6, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-11T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 6, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.196304+00:00"}
+{'date': '20220414', 'totalUsers': 2, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-14T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.196875+00:00"}
+{'date': '20220515', 'totalUsers': 2, 'userEngagementDuration': 43, 'engagementRate': 0.25, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-15T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 43, "engagementRate": 0.25, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.197473+00:00"}
+{'date': '20220522', 'totalUsers': 2, 'userEngagementDuration': 23, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-22T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 23, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.198081+00:00"}
+{'date': '20220528', 'totalUsers': 2, 'userEngagementDuration': 19, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-28T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 19, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.198653+00:00"}
+{'date': '20220531', 'totalUsers': 2, 'userEngagementDuration': 66, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-31T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 66, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.199255+00:00"}
+{'date': '20220604', 'totalUsers': 2, 'userEngagementDuration': 31, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-04T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 31, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.199827+00:00"}
+{'date': '20220621', 'totalUsers': 2, 'userEngagementDuration': 18, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-21T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 18, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.200439+00:00"}
+{'date': '20220624', 'totalUsers': 2, 'userEngagementDuration': 24, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-24T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 24, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.201010+00:00"}
+{'date': '20220626', 'totalUsers': 2, 'userEngagementDuration': 28, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-26T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 28, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.201600+00:00"}
+{'date': '20220704', 'totalUsers': 2, 'userEngagementDuration': 98, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-04T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 98, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.202207+00:00"}
+{'date': '20220715', 'totalUsers': 2, 'userEngagementDuration': 456, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-15T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 456, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.202777+00:00"}
+{'date': '20220716', 'totalUsers': 2, 'userEngagementDuration': 10, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-16T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 10, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.203371+00:00"}
+{'date': '20220728', 'totalUsers': 2, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-28T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.203944+00:00"}
+{'date': '20220730', 'totalUsers': 2, 'userEngagementDuration': 8, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-30T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 8, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.204508+00:00"}
+{'date': '20220811', 'totalUsers': 2, 'userEngagementDuration': 204, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-11T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 204, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.205128+00:00"}
+{'date': '20220821', 'totalUsers': 2, 'userEngagementDuration': 11, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-21T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 11, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.205714+00:00"}
+{'date': '20220828', 'totalUsers': 2, 'userEngagementDuration': 84, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-28T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 84, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.206312+00:00"}
+{'date': '20220906', 'totalUsers': 2, 'userEngagementDuration': 170, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-06T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 170, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.206883+00:00"}
+{'date': '20220911', 'totalUsers': 2, 'userEngagementDuration': 82, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-11T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 82, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.207471+00:00"}
+{'date': '20220924', 'totalUsers': 2, 'userEngagementDuration': 2, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-24T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 2, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.208039+00:00"}
+{'date': '20221002', 'totalUsers': 2, 'userEngagementDuration': 119, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-02T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 119, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.208632+00:00"}
+{'date': '20221009', 'totalUsers': 2, 'userEngagementDuration': 115, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-09T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 115, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.209228+00:00"}
+{'date': '20221013', 'totalUsers': 2, 'userEngagementDuration': 35, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-13T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 35, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.209798+00:00"}
+{'date': '20221023', 'totalUsers': 2, 'userEngagementDuration': 25, 'engagementRate': 0.25, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-23T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 25, "engagementRate": 0.25, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.210386+00:00"}
+{'date': '20221029', 'totalUsers': 2, 'userEngagementDuration': 154, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-29T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 154, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.210948+00:00"}
+{'date': '20221104', 'totalUsers': 2, 'userEngagementDuration': 11, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-04T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 11, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.211523+00:00"}
+{'date': '20221112', 'totalUsers': 2, 'userEngagementDuration': 7, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-12T00:00:00+00:00", "totalUsers": 2, "userEngagementDuration": 7, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.212154+00:00"}
+{'date': '20210420', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-20T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.212729+00:00"}
+{'date': '20210421', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-21T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.213324+00:00"}
+{'date': '20210427', 'totalUsers': 1, 'userEngagementDuration': 36, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-04-27T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 36, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.213892+00:00"}
+{'date': '20210504', 'totalUsers': 1, 'userEngagementDuration': 56, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-04T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 56, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.214478+00:00"}
+{'date': '20210509', 'totalUsers': 1, 'userEngagementDuration': 87, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-09T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 87, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.215101+00:00"}
+{'date': '20210514', 'totalUsers': 1, 'userEngagementDuration': 85, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-14T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 85, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.215715+00:00"}
+{'date': '20210519', 'totalUsers': 1, 'userEngagementDuration': 97, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-19T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 97, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.216335+00:00"}
+{'date': '20210527', 'totalUsers': 1, 'userEngagementDuration': 103, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-05-27T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 103, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.216917+00:00"}
+{'date': '20210604', 'totalUsers': 1, 'userEngagementDuration': 25, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-04T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 25, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.217505+00:00"}
+{'date': '20210609', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-09T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.218108+00:00"}
+{'date': '20210610', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-10T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.218729+00:00"}
+{'date': '20210616', 'totalUsers': 1, 'userEngagementDuration': 19, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-16T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 19, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.219358+00:00"}
+{'date': '20210619', 'totalUsers': 1, 'userEngagementDuration': 42, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-19T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 42, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.219950+00:00"}
+{'date': '20210620', 'totalUsers': 1, 'userEngagementDuration': 72, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-20T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 72, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.220528+00:00"}
+{'date': '20210627', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-27T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.221121+00:00"}
+{'date': '20210628', 'totalUsers': 1, 'userEngagementDuration': 1, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-06-28T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 1, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.221698+00:00"}
+{'date': '20210703', 'totalUsers': 1, 'userEngagementDuration': 14, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-03T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 14, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.222372+00:00"}
+{'date': '20210706', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-06T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.222992+00:00"}
+{'date': '20210710', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-10T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.223610+00:00"}
+{'date': '20210717', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-17T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.224231+00:00"}
+{'date': '20210720', 'totalUsers': 1, 'userEngagementDuration': 9, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-20T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 9, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.224801+00:00"}
+{'date': '20210724', 'totalUsers': 1, 'userEngagementDuration': 58, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-24T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 58, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.225388+00:00"}
+{'date': '20210725', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-25T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.225977+00:00"}
+{'date': '20210726', 'totalUsers': 1, 'userEngagementDuration': 669, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-07-26T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 669, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.226564+00:00"}
+{'date': '20210806', 'totalUsers': 1, 'userEngagementDuration': 3, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-06T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 3, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.227163+00:00"}
+{'date': '20210814', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-14T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.227731+00:00"}
+{'date': '20210822', 'totalUsers': 1, 'userEngagementDuration': 21, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-22T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 21, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.228329+00:00"}
+{'date': '20210830', 'totalUsers': 1, 'userEngagementDuration': 36, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-30T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 36, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.228903+00:00"}
+{'date': '20210831', 'totalUsers': 1, 'userEngagementDuration': 23, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-08-31T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 23, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.229488+00:00"}
+{'date': '20210901', 'totalUsers': 1, 'userEngagementDuration': 27, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-01T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 27, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.230110+00:00"}
+{'date': '20210906', 'totalUsers': 1, 'userEngagementDuration': 58, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-06T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 58, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.230682+00:00"}
+{'date': '20210907', 'totalUsers': 1, 'userEngagementDuration': 37, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-07T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 37, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.231284+00:00"}
+{'date': '20210909', 'totalUsers': 1, 'userEngagementDuration': 109, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-09T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 109, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.231854+00:00"}
+{'date': '20210920', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-20T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.232445+00:00"}
+{'date': '20210927', 'totalUsers': 1, 'userEngagementDuration': 68, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-09-27T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 68, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.233016+00:00"}
+{'date': '20211030', 'totalUsers': 1, 'userEngagementDuration': 17, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-10-30T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 17, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.233666+00:00"}
+{'date': '20211102', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-02T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.234321+00:00"}
+{'date': '20211106', 'totalUsers': 1, 'userEngagementDuration': 25, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-06T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 25, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.234934+00:00"}
+{'date': '20211107', 'totalUsers': 1, 'userEngagementDuration': 137, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-07T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 137, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.235564+00:00"}
+{'date': '20211111', 'totalUsers': 1, 'userEngagementDuration': 22, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-11T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 22, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.236205+00:00"}
+{'date': '20211121', 'totalUsers': 1, 'userEngagementDuration': 5, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-11-21T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 5, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.236776+00:00"}
+{'date': '20211205', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-05T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.237368+00:00"}
+{'date': '20211208', 'totalUsers': 1, 'userEngagementDuration': 143, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-08T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 143, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.237939+00:00"}
+{'date': '20211210', 'totalUsers': 1, 'userEngagementDuration': 1, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-10T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 1, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.238512+00:00"}
+{'date': '20211211', 'totalUsers': 1, 'userEngagementDuration': 2, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-11T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 2, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.239188+00:00"}
+{'date': '20211213', 'totalUsers': 1, 'userEngagementDuration': 79, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-13T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 79, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.239773+00:00"}
+{'date': '20211214', 'totalUsers': 1, 'userEngagementDuration': 149, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-14T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 149, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.240369+00:00"}
+{'date': '20211220', 'totalUsers': 1, 'userEngagementDuration': 150, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-20T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 150, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.240959+00:00"}
+{'date': '20211231', 'totalUsers': 1, 'userEngagementDuration': 84, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2021-12-31T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 84, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.241537+00:00"}
+{'date': '20220101', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-01T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.242126+00:00"}
+{'date': '20220120', 'totalUsers': 1, 'userEngagementDuration': 3, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-20T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 3, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.242700+00:00"}
+{'date': '20220123', 'totalUsers': 1, 'userEngagementDuration': 16, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-23T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 16, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.243293+00:00"}
+{'date': '20220130', 'totalUsers': 1, 'userEngagementDuration': 165, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-01-30T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 165, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.243860+00:00"}
+{'date': '20220207', 'totalUsers': 1, 'userEngagementDuration': 12, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-07T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 12, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.244451+00:00"}
+{'date': '20220218', 'totalUsers': 1, 'userEngagementDuration': 8, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-18T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 8, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.245022+00:00"}
+{'date': '20220228', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-02-28T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.245644+00:00"}
+{'date': '20220312', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-12T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.246258+00:00"}
+{'date': '20220313', 'totalUsers': 1, 'userEngagementDuration': 8, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-13T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 8, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.246828+00:00"}
+{'date': '20220319', 'totalUsers': 1, 'userEngagementDuration': 63, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-19T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 63, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.247420+00:00"}
+{'date': '20220321', 'totalUsers': 1, 'userEngagementDuration': 85, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-21T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 85, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.247990+00:00"}
+{'date': '20220331', 'totalUsers': 1, 'userEngagementDuration': 6, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-03-31T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 6, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.248583+00:00"}
+{'date': '20220409', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-09T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.249192+00:00"}
+{'date': '20220418', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-18T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.249764+00:00"}
+{'date': '20220423', 'totalUsers': 1, 'userEngagementDuration': 201, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-23T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 201, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.250360+00:00"}
+{'date': '20220430', 'totalUsers': 1, 'userEngagementDuration': 153, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-04-30T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 153, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.250929+00:00"}
+{'date': '20220502', 'totalUsers': 1, 'userEngagementDuration': 2, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-02T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 2, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.251498+00:00"}
+{'date': '20220508', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-08T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.252091+00:00"}
+{'date': '20220514', 'totalUsers': 1, 'userEngagementDuration': 20, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-14T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 20, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.252653+00:00"}
+{'date': '20220526', 'totalUsers': 1, 'userEngagementDuration': 10, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-26T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 10, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.253252+00:00"}
+{'date': '20220530', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-05-30T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.253819+00:00"}
+{'date': '20220603', 'totalUsers': 1, 'userEngagementDuration': 27, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-03T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 27, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.254408+00:00"}
+{'date': '20220606', 'totalUsers': 1, 'userEngagementDuration': 5, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-06T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 5, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.254974+00:00"}
+{'date': '20220617', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-17T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.255615+00:00"}
+{'date': '20220618', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-18T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.256235+00:00"}
+{'date': '20220630', 'totalUsers': 1, 'userEngagementDuration': 11, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-06-30T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 11, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.256803+00:00"}
+{'date': '20220703', 'totalUsers': 1, 'userEngagementDuration': 19, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-03T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 19, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.257393+00:00"}
+{'date': '20220717', 'totalUsers': 1, 'userEngagementDuration': 17, 'engagementRate': 0.3333333333333333, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-17T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 17, "engagementRate": 0.3333333333333333, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.257967+00:00"}
+{'date': '20220718', 'totalUsers': 1, 'userEngagementDuration': 22, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-18T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 22, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.258563+00:00"}
+{'date': '20220721', 'totalUsers': 1, 'userEngagementDuration': 7, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-21T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 7, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.259162+00:00"}
+{'date': '20220723', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-23T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.259727+00:00"}
+{'date': '20220725', 'totalUsers': 1, 'userEngagementDuration': 65, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-25T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 65, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.260341+00:00"}
+{'date': '20220731', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-07-31T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.260912+00:00"}
+{'date': '20220806', 'totalUsers': 1, 'userEngagementDuration': 3, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-06T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 3, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.261499+00:00"}
+{'date': '20220814', 'totalUsers': 1, 'userEngagementDuration': 133, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-14T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 133, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.262084+00:00"}
+{'date': '20220827', 'totalUsers': 1, 'userEngagementDuration': 45, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-08-27T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 45, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.262657+00:00"}
+{'date': '20220901', 'totalUsers': 1, 'userEngagementDuration': 15, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-01T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 15, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.263252+00:00"}
+{'date': '20220902', 'totalUsers': 1, 'userEngagementDuration': 5, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-02T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 5, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.263825+00:00"}
+{'date': '20220908', 'totalUsers': 1, 'userEngagementDuration': 11, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-08T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 11, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.264416+00:00"}
+{'date': '20220910', 'totalUsers': 1, 'userEngagementDuration': 11, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-09-10T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 11, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.264985+00:00"}
+{'date': '20221008', 'totalUsers': 1, 'userEngagementDuration': 44, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-08T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 44, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.265566+00:00"}
+{'date': '20221014', 'totalUsers': 1, 'userEngagementDuration': 8, 'engagementRate': 0.5, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-14T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 8, "engagementRate": 0.5, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.266177+00:00"}
+{'date': '20221015', 'totalUsers': 1, 'userEngagementDuration': 23, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-15T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 23, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.266753+00:00"}
+{'date': '20221022', 'totalUsers': 1, 'userEngagementDuration': 0, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-22T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 0, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.267377+00:00"}
+{'date': '20221030', 'totalUsers': 1, 'userEngagementDuration': 5, 'engagementRate': 0.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-10-30T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 5, "engagementRate": 0.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.267952+00:00"}
+{'date': '20221113', 'totalUsers': 1, 'userEngagementDuration': 7, 'engagementRate': 1.0, '_end_date': '2022-11-14'}
+{"type": "RECORD", "stream": "page_views", "record": {"date": "2022-11-13T00:00:00+00:00", "totalUsers": 1, "userEngagementDuration": 7, "engagementRate": 1.0, "_end_date": "2022-11-14"}, "time_extracted": "2022-11-15T16:51:51.268530+00:00"}
+{"type": "STATE", "value": {"bookmarks": {"page_views": {"replication_key": "_end_date", "replication_key_value": "2022-11-14"}}}}
