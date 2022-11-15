@@ -1,0 +1,115 @@
+{
+  "streams": [
+    {
+      "tap_stream_id": "page_views",
+      "replication_key": "_end_date",
+      "replication_method": "INCREMENTAL",
+      "key_properties": [
+        "date"
+      ],
+      "schema": {
+        "properties": {
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "totalUsers": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "userEngagementDuration": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "engagementRate": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "_end_date": {
+            "format": "date-time",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "page_views",
+      "metadata": [
+        {
+          "breadcrumb": [
+            "properties",
+            "date"
+          ],
+          "metadata": {
+            "inclusion": "automatic",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "totalUsers"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "userEngagementDuration"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "engagementRate"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_end_date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true,
+            "table-key-properties": [
+              "date"
+            ],
+            "valid-replication-keys": [
+              "_end_date"
+            ]
+          }
+        }
+      ],
+      "selected": true
+    }
+  ]
+}

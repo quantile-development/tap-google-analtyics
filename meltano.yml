@@ -1,27 +1,28 @@
 version: 1
 send_anonymous_usage_stats: true
-project_id: tap-google-analytics-v4
 plugins:
   extractors:
-  - name: tap-google-analytics-v4
-    namespace: tap_google_analytics_v4
-    # TODO: To test using Meltano, replace with absolute path
-    #       to the tap-google-analytics-v4.sh script:
-    executable: ./tap-google-analytics-v4.sh
+  - name: tap-google-analytics
+    namespace: tap_google_analytics
+    pip_url: -e .
+    executable: tap-google-analytics
     capabilities:
     - state
     - catalog
     - discover
     config:
-      start_date: '2010-01-01T00:00:00Z'
-    settings:
-    # TODO: To configure using Meltano, declare settings and their types here:
-    - name: username
-    - name: password
-      kind: password
-    - name: start_date
-      value: '2010-01-01T00:00:00Z'
+      start_date: 2010-01-01
+      property_id: '265077427'
+      name: page_views
+      dimensions:
+      - date
+      metrics:
+      - totalUsers
+      - userEngagementDuration
+      - engagementRate
+      service_account_key: $GOOGLE_ANALYTICS_KEY
   loaders:
   - name: target-jsonl
     variant: andyh1203
     pip_url: target-jsonl
+project_id: 60f3f709-739b-4310-95bb-18b1c0399c24
